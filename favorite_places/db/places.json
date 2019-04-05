@@ -3,8 +3,54 @@
         {
            "cityName": "Houston",
            "cityState": "Texas",
-           "cityImage":
+           "cityImage": "https://assets3.thrillist.com/v1/image/1386839/size/tmg-article_default_mobile.jpg",
+           "favoriteRestaurant": "the breakfast klub",
+           "favoriteBar":"The Dirt Bar",
+            "favoriteHotel":"Marriott Marquis Houston",
+            "favoriteTouristAttraction":"Space Center Houston"
 
         },
+        {
+            "cityName": "Nashville",
+            "cityState": "Tennessee",
+            "cityImage": "https://image.shutterstock.com/image-photo/nashville-skyline-moon-260nw-1041309010.jpg",
+            "favoriteRestaurant": "Slim N' Husky's",
+            "favoriteBar":"Minerva Ave",
+             "favoriteHotel":"Doubletree Hotel Downtown",
+             "favoriteTouristAttraction":"Broadway"
+    
+        },
+        {
+            "cityName": "Phoenix",
+            "cityState": "Arizona",
+            "cityImage": "http://cdn6.dissolve.com/p/D567_3_016/D567_3_016_0004_600.jpg",
+            "favoriteRestaurant": "The Gladly Restaurant",
+            "favoriteBar":"The Swizzle Inn",
+             "favoriteHotel":"Marriott Marquis Houston",
+             "favoriteTouristAttraction":"Space Center Houston"
+ 
+        },
+        {
+            "cityName": "Atlanta",
+            "cityState": "Georgia",
+            "cityImage": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2014/7/2/0/RX_iStock_Atlanta-Georgia_s4x3.jpg.rend.hgtvcom.616.462.suffix/1405368368970.jpeg",
+            "favoriteRestaurant": "Taco Mac",
+            "favoriteBar":"Harlem Bar",
+             "favoriteHotel":"Renaissance Atlanta Hotel Downtown",
+             "favoriteTouristAttraction":"Stone Mountain"
+ 
+        },
+        {
+            "cityName": "Chicago",
+            "cityState": "Illinois",
+            "cityImage": "https://static1.squarespace.com/static/5813cddb8419c25c3b42eacd/5ba5a56815fcc0772b57ee38/5bb87b8ae79c70371d4cfe6a/1538849678116/sunrise.jpg",
+            "favoriteRestaurant": "Mac Arthur",
+            "favoriteBar":"Happy Bamboo Bar and Lounge",
+             "favoriteHotel":"Renaissance Chicago Hotel Downtown",
+             "favoriteTouristAttraction":"Millenium Park"
+        }
+       
+
+        
     ]
 }
