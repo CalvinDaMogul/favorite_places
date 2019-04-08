@@ -1,5 +1,5 @@
 //XHR - XmlHttpRequest 
-let cities = [];
+let places = [];
 
 const printToDom = (divId, textToPrint) => {
     const selectDiv= document.getElementById(divId);
@@ -8,11 +8,11 @@ const printToDom = (divId, textToPrint) => {
 
 
 
-const domStringBuilder = () =>{
+const domStringBuilder = (cities) => {
     let domString = '';
-    places.forEach((x) => {
+    cities.forEach((x) => {
         domString += `<div class="card col-3">`;
-        domString += `<h5 class="card-title"><b>${x.cityName}, ${x.countryName}</b></h5>`;
+        domString += `<h5 class="card-title"><b>${x.cityName}, ${x.cityState}</b></h5>`;
         domString += `<img src="${x.cityImage}" class="card-img-top" alt="...">`;
         domString += `<ul>`;
         domString += `<li>Favorite Restaurant: ${x.favoriteRestaurant}</li>`;
@@ -28,8 +28,8 @@ const domStringBuilder = () =>{
 
 function executeThisCodeAfterFileLoads(){
     const data = JSON.parse(this.responseText);
-    cities = data.cities;
-    domStringBuilder(data.cities); 
+    places = data.places;
+    domStringBuilder(places); 
 };
 
 function executeThisCodeIfXHRFails(){
